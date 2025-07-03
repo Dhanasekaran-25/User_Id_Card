@@ -1,0 +1,59 @@
+.id-card {
+  width: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 0;
+}
+
+.card-header {
+  background-color: #1a365d;
+  color: white;
+  padding: 16px 10px 8px;
+  text-align: center;
+  border-bottom: 4px solid #e53935;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.card-header p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.photo {
+  display: block;
+  margin: 16px auto;
+  width: 90px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.card-details {
+  padding: 0 20px 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+.card-details p {
+  margin: 6px 0;
+}
+
+.card-footer {
+  background-color: #1a365d;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  border-top: 4px solid #e82f2c;
+}
